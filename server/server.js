@@ -11,9 +11,9 @@ app.use(express.json());
 app.use(cors());
 
 // Veritabanı bağlantısını kontrol et
-sequelize.authenticate()
-  .then(() => console.log('Veritabanı başarıyla bağlandı!'))
-  .catch((err) => console.error('Veritabanı bağlantı hatası:', err));
+// sequelize.authenticate()
+//   .then(() => console.log('Veritabanı başarıyla bağlandı!'))
+//   .catch((err) => console.error('Veritabanı bağlantı hatası:', err));
 
 // API uç noktalarını tanımlayacağız
 
